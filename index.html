@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <script src="https://kit.fontawesome.com/ac7a48620a.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="https://i.imgur.com/1nJ3LoJ.png"/>
+    <link rel="icon" type="image/png" href="favicon.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ga+Maamli&display=swap" rel="stylesheet">
@@ -10,8 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Couleurs appareils</title>
     <style>
+      
+        @font-face {
+          font-family: 'Ted Next';
+          src: url('https://raw.githubusercontent.com/rogersrepaccess/devis/main/fonts/TedNext-Regular.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+        } 
+      
         body {
-            font-family: Barlow;
+            font-family: 'Ted Next';
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -42,25 +50,27 @@
             margin-bottom: 20px;
         }
         .language-button {
+            font-family: 'Ted Next';
             background-color: transparent;
-            color: #434343;
-            padding: 10px 20px;
-            border: 2px solid #434343;
+            font-size: 18px;
+            color: #3D3C3C;
+            text-decoration: underline;
+            transition-duration: 200ms;
+            padding: 0px 0px;
+            border: 0px solid #434343;
             border-radius: 5px;
             cursor: pointer;
             margin-right: 10px;
-            transition-property: background-color;
-            transition-duration: 100ms;
         }
         .language-button:hover {
-            background-color: #d5d5d5;
+           font-size: 20px;
         }
         .manufacturer-button {
-            font-family: Barlow;
+            font-family: 'Ted Next';
             font-weight: normal;
             font-size: 14px;
             text-transform: uppercase;
-            background-color: #007bff;
+            background-color: #DA291C;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -146,7 +156,7 @@
         }
       
         .edit-button {
-          font-family: Barlow;
+          font-family: 'Ted Next';
           margin-top: 50px;
           padding: 5px;
           padding-right: 10px;
@@ -169,7 +179,7 @@
 <body>
     <div class="banner">
       <div class="banner-icon">
-        <img class="banner-icon-src" src="https://i.imgur.com/1nJ3LoJ.png"></img>
+        
       </div>
       <div class="banner-title" id="banner-title">
         Couleurs appareils
